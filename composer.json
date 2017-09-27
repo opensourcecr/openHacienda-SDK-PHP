@@ -1,0 +1,24 @@
+{
+    "name": "opensourcecr/openhacienda-sdk-php",
+    "description": "PHP SDK para REST APIs | Factura electrónica Hacienda Costa Rica",
+    "keywords": ["costarica", "hacienda", "api", "sdk", "php"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Source Code Costa Rica",
+            "email": "sourcode.lat@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.31",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "psr/log": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenHacienda\\": "src/"
+        }
+    }
+}
